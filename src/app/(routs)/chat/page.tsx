@@ -1,8 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { NavBar } from "@/components/nav-bar"
-import { SideBar } from "@/components/side-bar"
 import { ChatList } from "@/components/chat-list"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -81,9 +79,7 @@ export default function ChatPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <NavBar />
       <div className="flex h-[calc(100vh-3.5rem)]">
-        <SideBar />
         <div className="flex flex-1 overflow-hidden">
           <ChatList selectedChatId={selectedChatId} onSelectChat={setSelectedChatId} />
           <div className="flex-1 flex flex-col">

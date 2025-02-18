@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Users, Film, User } from "lucide-react"
-import { PremiumModal } from "./premium-modal"
+import { PremiumModal } from "./layout/premium-modal"
 
 export function NavBar() {
   return (

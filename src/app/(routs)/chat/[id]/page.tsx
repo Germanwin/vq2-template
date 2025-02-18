@@ -1,8 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { NavBar } from "@/components/nav-bar"
-import { SideBar } from "@/components/side-bar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -90,10 +88,7 @@ export default function ChatPage({ params }: { params: { id: string } }) {
 
   return (
     <div className="h-screen overflow-hidden bg-background">
-      <NavBar />
       <div className="flex h-[calc(100vh-3.5rem)]">
-        <SideBar />
-
         {/* Main Content Area */}
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* Chat Header */}
