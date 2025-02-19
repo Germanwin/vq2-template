@@ -15,7 +15,7 @@ export function SideBar() {
     { href: "/", icon: Compass, label: "Explore" },
     { href: "/chat", icon: MessageSquare, label: "Chat" },
     { href: "/collections", icon: FolderHeart, label: "Collection", comingSoon: true },
-    { href: "/generate", icon: ImageIcon, label: "Generate Image", comingSoon: true },
+    { href: "/image-generation", icon: ImageIcon, label: "Generate Image", comingSoon: true },
     { href: "/create", icon: UserPlus, label: "Create Character", comingSoon: true },
     { href: "/my-ai", icon: User, label: "My AI", comingSoon: true },
   ]
